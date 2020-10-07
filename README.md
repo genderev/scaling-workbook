@@ -52,5 +52,15 @@ If you don't meet your service level objectives, you can make decisions like:
 If you do meet your objectives, you can:
 - Increase deployment speed
 - Shift focus to areas that aren't as reliable
+## Dealing with disaster
+
+A disaster is a service outage. Declare these incidents early and often.
+
+__Prepare for outages__
+- Decide on a communication channel for your team beforehand, and use it often
+- Let users know what's happening and that you're working on a fix
+- Prepare a list of people to contact
+
+ 
 ### Credit
 These are my personal notes taken from [the SRE series](https://landing.google.com/sre/books/) and other blogs and books I will cite once I feel like it.
