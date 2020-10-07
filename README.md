@@ -37,5 +37,13 @@ The SLI ranges from 0% to 100%, where 0% means nothing works, and 100% means not
 </tbody>
 </table>
 
+You can get SLI stats using:
+
+- Server logs
+- Load balancer monitoring
+- Some client-side tooling
+  
+[Finished SLO example](https://landing.google.com/sre/workbook/chapters/slo-document/)
+
 ### Credit
 These are my personal notes taken from [the SRE series](https://landing.google.com/sre/books/) and other blogs and books I will cite once I feel like it.
