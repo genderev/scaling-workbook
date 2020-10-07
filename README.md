@@ -60,6 +60,12 @@ __Prepare for outages__
 - Let users know what's happening and that you're working on a fix
 - Prepare a list of people to contact
 
+## Managing load
+
+Set up a load balancer with:
+- [DNS](https://www.nginx.com/resources/glossary/dns-load-balancing/)
+= [Node.js](https://github.com/realabbas/scaling-nodejs)
+- [Service workers](https://serviceworke.rs/load-balancer.html)
  
 ### Credit
 These are my personal notes taken from [the SRE series](https://landing.google.com/sre/books/) and other blogs and books I will cite once I feel like it.
