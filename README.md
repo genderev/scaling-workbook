@@ -64,8 +64,13 @@ __Prepare for outages__
 
 Set up a load balancer with:
 - [DNS](https://www.nginx.com/resources/glossary/dns-load-balancing/)
-- [Node.js](https://medium.com/iquii/good-practices-for-high-performance-and-scalable-node-js-applications-part-1-3-bb06b6204197)
+- [Node.js](https://medium.com/techintoo/load-balancing-node-js-51b854fb4f4f)
 - [Service workers](https://serviceworke.rs/load-balancer.html)
+- [Weighted round-robin algorithm](https://github.com/search?q=Weighted+Round+Robin)
+ 
+Other ways to manage load:
+- [Node.js clusters](https://medium.com/iquii/good-practices-for-high-performance-and-scalable-node-js-applications-part-1-3-bb06b6204197)
+
  
 ### Credit
 These are my personal notes taken from [the SRE series](https://landing.google.com/sre/books/) and other blogs and books I will cite once I feel like it.
