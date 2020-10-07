@@ -64,7 +64,7 @@ __Prepare for outages__
 
 Set up a load balancer with:
 - [DNS](https://www.nginx.com/resources/glossary/dns-load-balancing/)
-- [Node.js](https://github.com/realabbas/scaling-nodejs)
+- [Node.js](https://medium.com/iquii/good-practices-for-high-performance-and-scalable-node-js-applications-part-1-3-bb06b6204197)
 - [Service workers](https://serviceworke.rs/load-balancer.html)
  
 ### Credit
