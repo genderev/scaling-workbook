@@ -43,7 +43,14 @@ You can get SLI stats using:
 - Load balancer monitoring
 - Some client-side tooling
   
-[Here's a finished SLO example.](https://landing.google.com/sre/workbook/chapters/slo-document/)
+[Here's a finished SLO example.](https://landing.google.com/sre/workbook/chapters/slo-document/) 
 
+If you don't meet your service level objectives, you can make decisions like:
+- Stop rolling out new features 
+- Devote all engineering time to fixing bugs
+
+If you do meet your objectives, you can:
+- Increase deployment speed
+- Shift focus to areas that aren't as reliable
 ### Credit
 These are my personal notes taken from [the SRE series](https://landing.google.com/sre/books/) and other blogs and books I will cite once I feel like it.
