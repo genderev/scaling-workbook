@@ -3,7 +3,8 @@ Notes on how to scale.
 
 ## Define service level objectives
 Service level objectives (SLOs) specify a target level for the reliability of your service. 
-100% reliability is the wrong target:
+
+__100% reliability is the wrong target because:__
 - There is a nonzero probability that one or more components of the system will fail simultaneously, resulting in less than 100% availability. 
 - If you managed to guaranteee 100% uptime in some utopia without real physical machines, you could never update or improve your service. 
 
