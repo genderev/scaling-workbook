@@ -1,6 +1,5 @@
 # scaling-workbook
-Notes on how to scale.
-
+Lessons from systems engineering and devops that reveal the art of scaling.
 ## Define service level objectives
 Service level objectives (SLOs) specify a target level for the reliability of your service. 
 
