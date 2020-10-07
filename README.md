@@ -1,5 +1,5 @@
 # scaling-workbook
-Lessons from systems engineering and devops that reveal the art of scaling.
+Lessons from systems engineering and DevOps on the art of scaling.
 ## Define service level objectives
 Service level objectives (SLOs) specify a target level for the reliability of your service. 
 
@@ -63,3 +63,4 @@ __Prepare for outages__
  
 ### Credit
 These are my personal notes taken from [the SRE series](https://landing.google.com/sre/books/) and other blogs and books I will cite once I feel like it.
+
