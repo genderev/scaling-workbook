@@ -43,7 +43,7 @@ You can get SLI stats using:
 - Load balancer monitoring
 - Some client-side tooling
   
-[Finished SLO example](https://landing.google.com/sre/workbook/chapters/slo-document/)
+[Here's a finished SLO example.](https://landing.google.com/sre/workbook/chapters/slo-document/)
 
 ### Credit
 These are my personal notes taken from [the SRE series](https://landing.google.com/sre/books/) and other blogs and books I will cite once I feel like it.
