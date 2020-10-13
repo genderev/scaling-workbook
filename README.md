@@ -23,8 +23,37 @@ Lessons from systems engineering and DevOps on the art of scaling.
   
 </dl>
 
+## Service-Oriented Architecture
+<table>
+<tbody>
+<tr>
+<td>Systems</td>
+<td>&nbsp;</td>
+<td>Programming</td>
+</tr>
+<tr>
+<td>Service-Oriented Architecture</td>
+<td>⇄</td>
+<td>Object-Oriented Design</td>
+</tr>
+</tbody>
+</table>
+
+Decouple functionality so that different parts of the system don't compete for the same resources. 
+
+## Redundancy
+
+If you have one copy of a file on one server, losing that server means losing the file. You need to create _redundant_ copies.
+
+If you have one server that runs one service, your system goes down when that server goes down. You need multiple copies of a service running simultaneously.
+
+<dl>
+  <dt>shared-nothing architecture</dt>
+  <dd>There isn't a single point of failure in the system that coordinates all the services.</dd>
+</dl>
+
 ## Define service level objectives
-Service level objectives (SLOs) specify a target level for the reliability of your service. 
+Service level objectives (SLOs) specify a target level for the reliability of your service. Split out read and write operations into separate services, then scale them both independently.
 
 __100% reliability is the wrong target because:__
 - There is a nonzero probability that one or more components of the system will fail simultaneously, resulting in less than 100% availability. 
@@ -96,5 +125,5 @@ Other ways to manage load:
 
  
 ### Credit
-These are my personal notes taken from [the SRE series](https://landing.google.com/sre/books/) and other blogs and [books](https://www.aosabook.org/en/distsys.html).
+These are my notes from [the SRE series](https://landing.google.com/sre/books/) and other [places](https://www.aosabook.org/en/distsys.html).
 
