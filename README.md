@@ -1,7 +1,7 @@
 # scaling-workbook
 Lessons from systems engineering and DevOps on the art of scaling.
 
-## Scalable design
+## Design
 
 <dl>
 
