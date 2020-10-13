@@ -1,5 +1,5 @@
 # scaling-workbook
-Lessons from systems engineering and DevOps on the art of scaling.
+Lessons on the art of scaling.
 
 ## Design
 
