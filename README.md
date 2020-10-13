@@ -1,5 +1,28 @@
 # scaling-workbook
 Lessons from systems engineering and DevOps on the art of scaling.
+
+## Scalable design
+
+<dl>
+
+  <dt>availability</dt>
+
+  <dd>consider redundancy for key components, fault tolerance, and graceful degradation</dd>
+
+  <dt> performance </dt>
+  
+  <dd> performance is user experience. </dd>
+  
+  <dt> reliability </dt>
+  
+  <dd> a request for a certain data element will consistently return the same data. if the data element is updated, the new data value is returned </dd>
+  
+  <dt> capacity </dt>
+  
+  <dd> how much traffic can the system handle? how can you add more of [resource] to let the system handle more traffic? </dd>
+  
+</dl>
+
 ## Define service level objectives
 Service level objectives (SLOs) specify a target level for the reliability of your service. 
 
@@ -73,5 +96,5 @@ Other ways to manage load:
 
  
 ### Credit
-These are my personal notes taken from [the SRE series](https://landing.google.com/sre/books/) and other blogs and books I will cite once I feel like it.
+These are my personal notes taken from [the SRE series](https://landing.google.com/sre/books/) and other blogs and [books](https://www.aosabook.org/en/distsys.html).
 
